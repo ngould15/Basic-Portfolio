@@ -6,61 +6,64 @@
     <meta charset="UTF-8">
     <title>Nicole Gould</title>
     <!-- Insert CSS Reset FIRST -->
-    <link rel="stylesheet" type="text/css"href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
     <header>
         <h1>Nicole Gould</h1>
+        <nav>
+            <ul id="nav">
+                <li>
+                    <A HREF="contact.html">Contact</A>
+                </li>
+                <li>
+                    <A HREF="portfolio.html">Portfolio</A>
+                </li>
+                <li>
+                    <A HREF="index.html">About Me</A>
+                </li>
+                <li style="float:right">
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <div class="container">
         <h2>Portfolio</h2>
-        <br>
-        <section>
-            <A HREF="index.html">About Me</A>
-            <A HREF="contact.html">Contact</A>
-            <A HREF="portfolio.html">Portfolio</A>
+        <hr>
+        <section id="portfolio">
+            <img id="Placeholder-1" src="assets/images/placeholder1.jpeg" alt="Placeholder 1" style="width:250px;height:200px;">
+            <p id="PH1">Hangman</p>
+            <img id="Placeholder-2" src="assets/images/placeholder2.jpeg" alt="Placeholder 2" style="width:250px;height:200px;">
+            <p id="PH2">RPG Game</p>
+            <img id="Placeholder-3" src="assets/images/placeholder3.jpeg" alt="Placeholder 3" style="width:250px;height:200px;">
+            <p id="PH3">Trivia Game</p>
+            <img id="Placeholder-4" src="assets/images/placeholder4.jpeg" alt="Placeholder 4" style="width:250px;height:200px;">
+            <p id="PH4">Rutgers Info Widget</p>
+            <img id="Placeholder-5" src="assets/images/placeholder5.jpeg" alt="Placeholder 5" style="width:250px;height:200px;">
+            <p id="PH5">Rock Paper Scissors</p>
+            <img id="Placeholder-6" src="assets/images/placeholder6.jpeg" alt="Placeholder 6" style="width:250px;height:200px;">
+            <p id="PH6">Misc</p>
         </section>
     </div>
 
-    <div class="container2">
-        <section id="contact-info">
-            <h2>Connect with Me</h2>
-            <a href="https://github.com/ngould15" target="_blank">
-                <img border="0" alt="GitHub" src="assets/images/if_github_rounded_394187.png" width="75" height="75">
-            </a>
-            <br>
-            <a href="https://www.linkedin.com/in/nicolegould/" target="_blank">
-                <img border="0" alt="LinkedIn" src="assets/images/if_linkedin_834713.png" width="75" height="75">
-            </a>
-            <br>
-            <a href="https://stackoverflow.com/users/9185273/nicole-gould" target="_blank">
-                <img border="0" alt="Stack OVerflow" src="assets/images/if_stackoverflow_1220302.png" width="75" height="75">
-            </a>
-        </section>
-    </div>
-    <br>
-    <div class="container3">
-        <section id="portfolio">
-            <img src="assets/images/placeholder1.jpeg" alt="Placeholder 1" style="width:250px;height:200px;">
-            <div class="centered">Centered</div>
-            <img src="assets/images/placeholder2.jpeg" alt="Placeholder 2" style="width:250px;height:200px;">
-            <div class="centered">Centered</div>
-            <br>
-            <img src="assets/images/placeholder3.jpeg" alt="Placeholder 3" style="width:250px;height:200px;">
-            <div class="centered">Centered</div>
-            <img src="assets/images/placeholder4.jpeg" alt="Placeholder 4" style="width:250px;height:200px;">
-            <div class="centered">Centered</div>
-            <br>
-            <img src="assets/images/placeholder5.jpeg" alt="Placeholder 5" style="width:250px;height:200px;">
-            <div class="centered">Centered</div>
-            <img src="assets/images/placeholder6.jpeg" alt="Placeholder 6" style="width:250px;height:200px;">
-            <div class="centered">Centered</div>
-        </section>
-    </div>
-    <footer clas="footer">
-        <p>©Copyright 2018 - Nicole Gould</p>
+    <section class="contact-info">
+        <h2>Connect with Me</h2>
+        <hr>
+        <a class="GitHub" href="https://github.com/ngould15" target="_blank">
+            <img border="0" alt="GitHub" src="assets/images/if_github_rounded_394187.png" width="50" height="50">
+        </a>
+        <a class="LinkedIn" href="https://www.linkedin.com/in/nicolegould/" target="_blank">
+            <img border="0" alt="LinkedIn" src="assets/images/if_linkedin_834713.png" width="50" height="50">
+        </a>
+        <a class="StackOverflow" href="https://stackoverflow.com/users/9185273/nicole-gould" target="_blank">
+            <img border="0" alt="Stack OVerflow" src="assets/images/if_stackoverflow_1220302.png" width="50" height="50">
+        </a>
+    </section>
+
+    <footer class="footer">
+        <p id="footer-text">©Copyright 2018 - Nicole Gould</p>
     </footer>
 </body>
 
